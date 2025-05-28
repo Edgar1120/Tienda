@@ -1,0 +1,139 @@
+/* General */
+body {
+    background-color: #F8F8F8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Encabezado */
+header {
+    background-color: #4B0082 !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-weight: bold;
+    color: white;
+}
+
+header a {
+    color: #f0e9ff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Carrusel */
+.carousel-inner img {
+    height: 404px;
+    object-fit: contain;
+    background: #f8f8f8;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #8e44ad;
+    border-radius: 50%;
+    background-size: 50% 50%;
+    padding: 15px;
+}
+
+/* Tarjetas de productos */
+.card {
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    color: #4B0082;
+    font-weight: bold;
+}
+
+/* Botón de carrito */
+.btn-outline-primary {
+    border-color: #4B0082;
+    color: #4B0082;
+}
+
+.btn-outline-primary:hover {
+    background-color: #4B0082;
+    color: white;
+}
+
+/* Pie de página */
+footer {
+    background-color: #4B0082;
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* ====== Navegación global y migas de pan ====== */
+.breadcrumb {
+    background-color: transparent;
+    margin-top: 1rem;
+}
+
+.breadcrumb-item a {
+    color: #4B0082;
+    text-decoration: none;
+}
+
+.breadcrumb-item.active {
+    color: #9370DB;
+}
+
+/* ====== Categorías (columna lateral) ====== */
+.list-group-item {
+    border: none;
+    background-color: white;
+    color: #4B0082;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #9370DB;
+    color: white;
+}
+
+/* ====== Tarjetas de perfumes en la rejilla ====== */
+.card-img-top {
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* ====== Paginación ====== */
+.pagination .page-link {
+    color: #4B0082;
+    border-color: #9370DB;
+}
+
+.pagination .page-link:hover {
+    background-color: #9370DB;
+    color: white;
+}
+
+/* ====== Título de sección ====== */
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4B0082;
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 0.95rem;
+}

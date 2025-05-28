@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Buscar Perfumes | Perfumes Wong</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <header class="bg-purple text-white p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="h3 m-0">Perfumes Wong</h1>
+            <nav>
+                <a href="index.html" class="text-white me-3">Inicio</a>
+                <a href="navegacion.html" class="text-white me-3">Catálogo</a>
+                <a href="busqueda.html" class="text-white me-3">Buscar</a>
+                <a href="carrito.html" class="text-white">Carrito</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <h2 class="text-center text-primary mb-4">Buscar Perfumes</h2>
+
+        <form method="GET" action="busqueda.html" class="mb-4">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <input type="text" name="q" class="form-control" placeholder="Escribe el nombre del perfume...">
+                        <button class="btn btn-primary" type="submit">Buscar</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <!-- Resultado simulado con 2 perfumes fijos -->
+        <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/perfume1.jpg" class="card-img-top" alt="Valentino">
+                    <div class="card-body">
+                        <h5 class="card-title">Valentino</h5>
+                        <p class="card-text">Un aroma elegante y juvenil.</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-outline-dark">🛒 Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/perfume2.jpg" class="card-img-top" alt="Stronger With You">
+                    <div class="card-body">
+                        <h5 class="card-title">Stronger With You</h5>
+                        <p class="card-text">Notas de vainilla y castaña. Intenso y masculino.</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-outline-dark">🛒 Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="bg-purple text-white text-center py-4 mt-auto">
+        <div class="container">
+            <p class="mb-1">&copy; 2025 Perfumes Wong. Todos los derechos reservados.</p>
+            <p class="mb-1">Autor: Edgar Alvarez Contacto: <a href="mailto:edgar@perfumeswong.com" class="text-white">edgar@perfumeswong.com</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
